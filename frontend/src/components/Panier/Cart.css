@@ -1,0 +1,125 @@
+#title-page{
+    font-weight: 700;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+#envoyer{
+    padding: 10%;
+    padding-bottom: 16%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+#imgpanier{
+    float: left;
+    width: 50% ;
+}
+#Prodname{
+    font-weight: 650;
+    margin-left: 2px;
+    text-align: start;
+}
+#desc{
+    text-align: left;
+    margin-left: 30%;
+}
+input[type="number"] {
+    width: 36px;
+    border: #97794ca8 solid 1px;
+    border-radius: 0.8mm;
+}
+.icontext{
+    color: rgb(36, 53, 20) !important;
+    font-weight:550;
+    margin: 10px;
+}
+#wishlist{
+    float: left;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: brown;
+    margin-left: -10% ;
+    margin-top: 5%;
+}
+#supprimer{
+    margin: 0 !important;
+    margin-left: -10% !important;
+    color: inherit;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    white-space: normal;
+    cursor: pointer;
+    border: 0;
+    border-radius: .125rem;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+}
+#supprimer:hover{
+    color: inherit;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    white-space: normal;
+    cursor: pointer;
+    border: 0;
+    border-radius: .125rem;
+    box-shadow: 0 5px 10px 0 rgb(209 197 125 / 70%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    padding: .84rem 2.14rem;
+    font-size: .81rem; 
+}
+#pay:hover{
+    opacity: 0.85;
+    height: 24.8px;
+}
+#pay{
+    height: 25px;
+}
+#trash{
+    display: none;
+}
+.qte{
+    width: 50% !important;
+}
+@media screen and (max-width:520px) {
+    #supprimer{
+        display: none;
+    }
+    #trash{
+        display: table;
+        color: rgb(88, 57, 57);
+        font-size: 1.2rem;
+        position: inherit;
+        margin-right: 0% !important;
+    }
+    #wishlist{
+        display: none;
+    }
+    .text-right{
+        margin: 0px;
+    }
+    #title-page{
+        font-size: 1.5rem;
+        margin-left: 3%;
+    }
+    #Prodname{
+        font-size: 12px;
+    }
+    #faireachat,#retour{
+        font-size: 10px;
+        padding:6px 8px;
+    }
+    #pay{
+        width: 80%;
+    }
+    
+ 
+}
+@media screen and (max-width:961px) {
+    #imgpanier{
+        width: 100%;
+    }
+    #pay{
+        width: 70%;
+    }
+}

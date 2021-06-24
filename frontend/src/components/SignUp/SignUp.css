@@ -1,0 +1,27 @@
+.h4{
+    margin-top: 5% !important;
+}
+#defaultFormLoginEmailEx,#defaultFormLoginPasswordEx,#defaultFormLoginfnameEx,#defaultFormLoginlnameEx,#defaultFormLoginCPasswordEx{
+    width: 40%;
+    margin: auto;
+}
+label.grey-text{
+    margin-left: 30% ;
+    font-weight: 450;
+}
+.error{
+    font-size: 15px;
+    color: red ;
+    text-align:center;
+    font-weight: 550;
+    float: right;
+    margin-right:30% ;
+}
+#passError{
+    font-size: 14px;
+    color: red ;
+    text-align:center;
+    font-weight: 550;
+    float: right;
+    margin-right:30% ;
+}

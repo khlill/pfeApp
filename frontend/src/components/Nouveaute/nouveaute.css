@@ -1,0 +1,136 @@
+.title-page{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.btn-burly{
+    background-color: transparent !important;
+    border-bottom-right-radius: 8% !important;
+    border-top-right-radius: 8% !important;
+    margin: -0.01rem !important;
+    height: 79% ;
+    margin-top: 1% !important;  
+}
+.btn-burly:hover{
+    background-color: transparent !important;
+    border-bottom-right-radius: 8% !important;
+    border-top-right-radius: 8% !important;
+    margin: -0.01rem !important;
+    height: 79% ;
+    margin-top: 1% !important; 
+    padding: 13px 32px;
+}
+.fa-search{
+    color: #fff;
+    font-size: 15px;
+}
+.brand-wrap{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: initial;
+    color: #fff;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;  
+    margin-left: -40px;
+}
+.brand-wrap:hover{
+    font-size: 20.4px;
+    font-weight: 600;
+    float: left;
+    text-align: initial;
+    color: #332c219c;
+}
+.header-main{
+    background-color: #9c835e;
+}
+.widget-header,.icontext,.cnx > a,.fa-shopping-cart,.fa-user{
+    display: inline-block !important;
+    color: #fff !important;
+}
+.fa-user{
+    margin-left: -40%;
+    float: left;
+    margin-top: 4px;
+}
+.badge.new{
+    margin-left: 0px;
+}
+.new{
+    position: absolute;
+}
+.btn-khlil{
+    background-color: #97794c !important;
+    color: #fff !important;
+}
+.fa-bars,.fa-th{
+    color: #5e3f30;
+    font-size: 18px ;
+}
+.breadcrumb-item > a {
+    color: black;
+    font-weight: 500;
+}
+h6{
+    color: black;
+    font-weight: 500 !important;
+}
+.fa-chevron-down{
+    color: black;
+}
+#list {
+    color: black !important;
+}
+#list:hover{
+    color: #97794c !important;
+}
+li{
+    list-style-type: none !important;
+    margin-left: 10%;
+}
+.notify,.badge{
+    background-color: brown !important;
+}
+ 
+.custom-range::-webkit-slider-thumb{
+    background: #97794c !important;
+}
+.search{
+    padding: 9.4px !important;
+    margin-top: 0rem !important;
+    margin-left: 0rem !important ;
+}
+.pagination .page-item.active .page-link{
+    background-color: #97794c !important;
+}
+.breadcrumb-item{
+    margin-left: 0% !important;
+}
+.form-control{
+    height: 2.375rem !important;
+    padding: 10px !important;
+}
+@media screen and (max-width:690px){
+    .pagination{
+        width: 10%;
+    }    
+    #btnList{
+        display: none;
+    }
+    #activenouv,#acceuilnouv{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:961px){
+    #list{
+        font-size:13px;
+    }   
+    .btn-khlil{
+        font-size:10px !important;
+    }
+    #appliquer{
+        font-size: 6.8px !important;
+        padding:10px 24px ;
+
+    }
+}
