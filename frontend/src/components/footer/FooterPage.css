@@ -1,0 +1,14 @@
+footer.page-footer.font-small.pt-4.mt-4 {
+    background-color: #967b53;
+}
+
+@media screen and (max-width:760px){
+    .ulfooter{
+        margin-left: 35% ;
+        font-size: 13.5px;
+    }
+    #mailfooter{
+        margin-left: 20%;
+        font-size: 13.5px;
+    }
+}
